@@ -1,0 +1,18 @@
+[
+    {
+    "nombrePaciente": "Ana",
+    "apellidoPaciente": "Gonzalez",
+    "cedulaPaciente": "1234567",
+    "edadPaciente": "15 años",
+    "telefonoPaciente": "3105678946",
+    "especialidad": "Medicina general"
+    },
+    {
+        "nombrePaciente": "Juan",
+        "apellidoPaciente": "Ramirez",
+        "cedulaPaciente": "123674567",
+        "edadPaciente": "40 años",
+        "telefonoPaciente": "3105678646",
+        "especialidad": "Psicologia"
+    }
+    ]

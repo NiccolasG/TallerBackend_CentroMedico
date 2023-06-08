@@ -1,9 +1,6 @@
-# Proyecto-Centro-Medico
-GRupo 18 
-integrantes 
-Hernan Gustavo Olarte
-Niccolas Garibelllo
-Yeyson Andres Reyes
-Sergio Andres Torres
-Taller sobre un centro medico en 
-javascript, html y css
+# TallerBackend_CentroMedico
+Taller final curso backend 
+Grupo 18 integrantes
+Yeyson Andres Reyes Ortiz
+Sergio Andres Torres Sastoque
+Niccolas Garibello Carrero

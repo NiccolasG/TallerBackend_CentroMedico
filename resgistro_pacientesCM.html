@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Centro Medico</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+</head>
+
+<body class="fondo1">
+    <header>
+            <h1 class="titulo1">TALLER BACKEND CENTRO MEDICO</h1>
+    </header>
+    <main>
+    <br>
+    <br>    
+    <div class="container">
+        <div class="row">
+          <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
+            <div class="card"  style="width:450px;height:650px;box-shadow: 8px 8px 0;border-radius: 25px;">
+              <div class="card-body">
+                <h2>REGISTRO DE PACIENTES</h2>
+                <form>
+                  <div class="form-floating mb-3">
+                    <label for="nombredelpaciente">Nombres del paciente:<span> *</span></label>
+                    <input type="text" class="form-control" id="nombres" placeholder="nombres" required>
+                  </div>
+                  <div class="form-floating mb-3">
+                    <label for="apellidosdelpaciente">Apellidos del paciente:<span> *</span></label>
+                    <input type="text" class="form-control" id="apellidos" placeholder="apellidos" required>
+                  </div>
+                  <div class="form-floating mb-3">
+                    <label for="numerocedula">Numero de cedula:<span> *</span></label>
+                    <input type="number" class="form-control" id="cedula" placeholder="Numero de Documento" required>
+                  </div>
+                  <div class="form-floating mb-3">
+                    <label for="edaddelpaciente">Edad del paciente:<span> *</span></label>
+                    <input type="number" class="form-control" id="edad" placeholder="edad" required>
+                  </div>
+                  <div class="form-floating mb-3">
+                    <label for="telefonodelpaciente">Telefono del paciente:<span> *</span></label>
+                    <input type="number" class="form-control" id="telefono" placeholder="telefono" required>
+                  </div>
+                  <div class="form-floating mb-3">
+                  <label for="especialidad">Especialidad medica:<span> *</span></label>
+                  <select class="form-control" id="especialidad" name="especialidad">
+                    <option value="">---------------Especialidad medica  ---------------------</option>
+                    <option value="Medicina general">Medicina general</option>
+                    <option value="Cardiologia">Cardiologia</option>
+                    <option value="Medicina interna">Medicina interna</option>
+                    <option value="Dermatología">Dermatología</option>
+                    <option value="Rehabilitacion fisica">Rehabilitacion fisica</option>
+                    <option value="Psicologia">Psicologia</option>
+                    <option value="Odontología">Odontología</option>
+                    <option value="Radiologia">Radiologia</option>
+                  </select>
+                  </div>
+
+                  <div class="d-grid">
+                    <center>
+                        <button class="btn btn-danger btn-login text-uppercase fw-bold" id="boton1" type="submit">Enviar</button>
+                        <button class="btn btn-danger btn-login text-uppercase fw-bold" id="boton2" onclick="volver()"  type="submit">volver</button>
+                    </center>
+                  </div>
+                  
+                  
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </main>
+    <script src="datos_pacientesCM.json"></script>
+    <script src="cookies-pacientesCM.js"></script>
+
+</body>
+
+</html>

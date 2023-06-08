@@ -1,0 +1,19 @@
+[
+    {
+    
+    "nombreMedico": "Johana",
+    "apellido": "Ramirez",
+    "cedulaMedico": "169874567",
+    "numeroConsultorio": "234",
+    "correo": "XXXXX@gmail.com",
+    "especialidad": "Medicina interna"
+    },
+    {
+    "nombreMedico": "Johan",
+    "apellido": "Ramirez",
+    "cedulaMedico": "1536494567",
+    "numeroConsultorio": "134",
+    "correo": "XXXXX@gmail.com",
+    "especialidad": "Psicologia"
+    }
+    ]
